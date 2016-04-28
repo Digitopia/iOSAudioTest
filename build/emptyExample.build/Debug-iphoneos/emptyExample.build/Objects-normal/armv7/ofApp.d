@@ -542,4 +542,9 @@ dependencies: \
   ../../../addons/ofxiOS/src/events/ofxiOSAlertsListener.h \
   ../../../addons/ofxiOS/src/utils/ofxiOSExtras.h \
   ../../../addons/ofxAccelerometer/src/ofxAccelerometer.h \
-  ../../../addons/ofxiOS/src/utils/ofxiPhoneExtras.h
+  ../../../addons/ofxiOS/src/utils/ofxiPhoneExtras.h \
+  ../../../addons/ofxCocosDenshion/src/ofxCocosDenshion.h \
+  ../../../addons/ofxCocosDenshion/libs/CocosDenshion/include/iOS/CocosDenshion.h \
+  ../../../addons/ofxCocosDenshion/libs/CocosDenshion/include/iOS/CDConfig.h \
+  ../../../addons/ofxCocosDenshion/libs/CocosDenshion/include/iOS/CDOpenALSupport.h \
+  ../../../addons/ofxCocosDenshion/libs/CocosDenshion/include/iOS/CDAudioManager.h

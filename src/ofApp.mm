@@ -3,21 +3,25 @@
 //--------------------------------------------------------------
 void ofApp::setup(){	
 	// register touch events
-	ofRegisterTouchEvents(this);
+	//ofRegisterTouchEvents(this);
 	
 	// initialize the accelerometer
-	ofxAccelerometer.setup();
+	//ofxAccelerometer.setup();
 	
 	//iPhoneAlerts will be sent to this.
-	ofxiPhoneAlerts.addListener(this);
+	//ofxiPhoneAlerts.addListener(this);
 	
 	//If you want a landscape oreintation 
 	//iPhoneSetOrientation(OFXIPHONE_ORIENTATION_LANDSCAPE_RIGHT);
 	
 	ofBackground(127,127,127);
     
-    player.load("switch_on.wav", false);
-    player.setVolume(0.7f);
+    player1.setup();
+    
+    player1.addSoundEffect("switch_on.wav", 1);
+    player1.loadAllAudio();
+    
+    //player1.setSoundVolume(0.7f);
 }
 
 //--------------------------------------------------------------
@@ -29,6 +33,7 @@ void ofApp::update(){
 void ofApp::draw(){
     
     cout << ofGetFrameRate() << endl;
+    ofDrawBitmapString(ofGetFrameRate(), 100, 100);
 }
 
 //--------------------------------------------------------------
@@ -39,8 +44,7 @@ void ofApp::exit(){
 //--------------------------------------------------------------
 void ofApp::touchDown(ofTouchEventArgs &touch){
     
-    player.play();
-
+       player1.playSound(0);
 }
 
 //--------------------------------------------------------------

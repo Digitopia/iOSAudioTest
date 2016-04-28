@@ -14,6 +14,14 @@
 		53F323EB10A20EDB00E0DAE4 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F323EA10A20EDB00E0DAE4 /* OpenAL.framework */; };
 		B62F8B6A1CC2955E0055E767 /* libofxiOS_iphoneos_Debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B62F8B691CC2944D0055E767 /* libofxiOS_iphoneos_Debug.a */; };
 		B62F8B6F1CC29D280055E767 /* digiSoundPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = B62F8B6D1CC29D280055E767 /* digiSoundPlayer.mm */; };
+		B6C3949C1CD2605A00A008C5 /* libs in Resources */ = {isa = PBXBuildFile; fileRef = B6C3949A1CD2605A00A008C5 /* libs */; };
+		B6C394A61CD262F600A008C5 /* ofxCocosDenshion in Resources */ = {isa = PBXBuildFile; fileRef = B6C394A51CD262F600A008C5 /* ofxCocosDenshion */; };
+		B6C394B21CD268F000A008C5 /* ofxCocosDenshion.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6C394B11CD268F000A008C5 /* ofxCocosDenshion.mm */; };
+		B6C394B81CD2691900A008C5 /* CDAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C394B31CD2691900A008C5 /* CDAudioManager.m */; };
+		B6C394B91CD2691900A008C5 /* CDOpenALSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C394B41CD2691900A008C5 /* CDOpenALSupport.m */; };
+		B6C394BA1CD2691900A008C5 /* CocosDenshion.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C394B51CD2691900A008C5 /* CocosDenshion.m */; };
+		B6C394BB1CD2691900A008C5 /* SimpleAudioEngine_objc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C394B61CD2691900A008C5 /* SimpleAudioEngine_objc.m */; };
+		B6C394BC1CD2691900A008C5 /* SimpleAudioEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6C394B71CD2691900A008C5 /* SimpleAudioEngine.mm */; };
 		BB16EBD20F2B2A9500518274 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16EBD10F2B2A9500518274 /* OpenGLES.framework */; };
 		BB16EBD90F2B2AB500518274 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16EBD80F2B2AB500518274 /* QuartzCore.framework */; };
 		BB24DD8F10DA77E000E9C588 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BB24DD8C10DA77E000E9C588 /* Default.png */; };
@@ -35,6 +43,13 @@
 			remoteGlobalIDString = BB24DED610DA7A3F00E9C588;
 			remoteInfo = "iPhone+OF Static Library";
 		};
+		B6C394A11CD261B500A008C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E41D40FD13B3A0D800A75A5D /* iOS+OFLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BB24DE5C10DA7A3F00E9C588;
+			remoteInfo = "iPhone+OF Static Library";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +62,14 @@
 		53F323EA10A20EDB00E0DAE4 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		B62F8B6D1CC29D280055E767 /* digiSoundPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = digiSoundPlayer.mm; sourceTree = "<group>"; };
 		B62F8B6E1CC29D280055E767 /* digiSoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = digiSoundPlayer.h; sourceTree = "<group>"; };
+		B6C3949A1CD2605A00A008C5 /* libs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libs; path = /Users/oscarmsrodrigues/Documents/GitStuff/openFrameworks/addons/ofxCocosDenshion/libs; sourceTree = "<absolute>"; };
+		B6C394A51CD262F600A008C5 /* ofxCocosDenshion */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ofxCocosDenshion; path = /Users/oscarmsrodrigues/Documents/GitStuff/openFrameworks/addons/ofxCocosDenshion; sourceTree = "<absolute>"; };
+		B6C394B11CD268F000A008C5 /* ofxCocosDenshion.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCocosDenshion.mm; path = ../../../addons/ofxCocosDenshion/src/ofxCocosDenshion.mm; sourceTree = "<group>"; };
+		B6C394B31CD2691900A008C5 /* CDAudioManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDAudioManager.m; path = ../../../addons/ofxCocosDenshion/libs/CocosDenshion/src/iOS/CDAudioManager.m; sourceTree = "<group>"; };
+		B6C394B41CD2691900A008C5 /* CDOpenALSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDOpenALSupport.m; path = ../../../addons/ofxCocosDenshion/libs/CocosDenshion/src/iOS/CDOpenALSupport.m; sourceTree = "<group>"; };
+		B6C394B51CD2691900A008C5 /* CocosDenshion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CocosDenshion.m; path = ../../../addons/ofxCocosDenshion/libs/CocosDenshion/src/iOS/CocosDenshion.m; sourceTree = "<group>"; };
+		B6C394B61CD2691900A008C5 /* SimpleAudioEngine_objc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SimpleAudioEngine_objc.m; path = ../../../addons/ofxCocosDenshion/libs/CocosDenshion/src/iOS/SimpleAudioEngine_objc.m; sourceTree = "<group>"; };
+		B6C394B71CD2691900A008C5 /* SimpleAudioEngine.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SimpleAudioEngine.mm; path = ../../../addons/ofxCocosDenshion/libs/CocosDenshion/src/iOS/SimpleAudioEngine.mm; sourceTree = "<group>"; };
 		BB16EBD10F2B2A9500518274 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BB16EBD80F2B2AB500518274 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BB24DD8C10DA77E000E9C588 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -101,6 +124,12 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				B6C394B31CD2691900A008C5 /* CDAudioManager.m */,
+				B6C394B41CD2691900A008C5 /* CDOpenALSupport.m */,
+				B6C394B51CD2691900A008C5 /* CocosDenshion.m */,
+				B6C394B61CD2691900A008C5 /* SimpleAudioEngine_objc.m */,
+				B6C394B71CD2691900A008C5 /* SimpleAudioEngine.mm */,
+				B6C394B11CD268F000A008C5 /* ofxCocosDenshion.mm */,
 				E4D8936A11527B74007E1F53 /* src */,
 				BB24DD8B10DA77E000E9C588 /* data */,
 				BB24E1F710DAA51900E9C588 /* openFrameworks */,
@@ -211,6 +240,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B6C394A21CD261B500A008C5 /* PBXTargetDependency */,
 			);
 			name = emptyExample;
 			productName = iPhone;
@@ -265,7 +295,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C394A61CD262F600A008C5 /* ofxCocosDenshion in Resources */,
 				BB24DD8F10DA77E000E9C588 /* Default.png in Resources */,
+				B6C3949C1CD2605A00A008C5 /* libs in Resources */,
 				BB24DD9010DA77E000E9C588 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +325,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C394B81CD2691900A008C5 /* CDAudioManager.m in Sources */,
+				B6C394B91CD2691900A008C5 /* CDOpenALSupport.m in Sources */,
+				B6C394BA1CD2691900A008C5 /* CocosDenshion.m in Sources */,
+				B6C394BB1CD2691900A008C5 /* SimpleAudioEngine_objc.m in Sources */,
+				B6C394BC1CD2691900A008C5 /* SimpleAudioEngine.mm in Sources */,
+				B6C394B21CD268F000A008C5 /* ofxCocosDenshion.mm in Sources */,
 				E4D8936E11527B74007E1F53 /* main.mm in Sources */,
 				B62F8B6F1CC29D280055E767 /* digiSoundPlayer.mm in Sources */,
 				E4D8936F11527B74007E1F53 /* ofApp.mm in Sources */,
@@ -300,6 +338,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6C394A21CD261B500A008C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iPhone+OF Static Library";
+			targetProxy = B6C394A11CD261B500A008C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
@@ -311,6 +357,8 @@
 				GCC_PREFIX_HEADER = iPhone_Prefix.pch;
 				INFOPLIST_FILE = "ofxiphone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = "$(OF_PATH)/addons/ofxCocosDenshion/libs";
+				OTHER_LDFLAGS = "$(OF_CORE_LIBS)";
 				PRODUCT_NAME = "${TARGET_NAME}";
 			};
 			name = Debug;
@@ -323,6 +371,8 @@
 				GCC_PREFIX_HEADER = iPhone_Prefix.pch;
 				INFOPLIST_FILE = "ofxiphone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = "$(OF_PATH)/addons/ofxCocosDenshion/libs";
+				OTHER_LDFLAGS = "$(OF_CORE_LIBS)";
 				PRODUCT_NAME = "${TARGET_NAME}";
 			};
 			name = Release;

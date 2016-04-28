@@ -4,6 +4,8 @@
 #include "digiSoundPlayer.h"
 #include "ofxiPhone.h"
 #include "ofxiPhoneExtras.h"
+#include "ofxCocosDenshion.h"
+//#include "ofxOpenALSoundPlayer.h"
 
 class ofApp : public ofxiPhoneApp {
 	
@@ -24,7 +26,7 @@ public:
 	void gotMemoryWarning();
 	void deviceOrientationChanged(int newOrientation);
     
-    ofSoundPlayer player;
+    ofxCocosDenshion player1;
 
 };
 
