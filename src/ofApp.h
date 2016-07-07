@@ -27,6 +27,7 @@ public:
 	void deviceOrientationChanged(int newOrientation);
     
     ofxCocosDenshion player1;
+    ofxCocosDenshion player2;
 
 };
 

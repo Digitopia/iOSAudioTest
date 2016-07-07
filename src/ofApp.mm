@@ -17,9 +17,13 @@ void ofApp::setup(){
 	ofBackground(127,127,127);
     
     player1.setup();
+    player2.setup();
     
     player1.addSoundEffect("switch_on.wav", 1);
     player1.loadAllAudio();
+    
+    player2.addSoundEffect("switch_off.wav", 1);
+    player2.loadAllAudio();
     
     //player1.setSoundVolume(0.7f);
 }
@@ -43,8 +47,11 @@ void ofApp::exit(){
 
 //--------------------------------------------------------------
 void ofApp::touchDown(ofTouchEventArgs &touch){
-    
-       player1.playSound(0);
+    if(touch.x < ofGetWidth()/2) {
+        player1.playSound(0);
+    } else {
+        player2.playSound(0);
+    }
 }
 
 //--------------------------------------------------------------
